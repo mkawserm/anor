@@ -15,7 +15,7 @@ Item {
             width: 100
             height: 100
             text: "Hello"
-            onClicked: BKHelper.setPopup("qrc:"+"/anor/qml/TestScreen.qml",{"color":"yellow","radius":50.0});
+            onClicked: BKHelper.setPopup("https://raw.githubusercontent.com/mkawserm/anor/master/TestRemoteScreen.qml",{"color":"yellow","radius":50.0});
         }
     }
 }
