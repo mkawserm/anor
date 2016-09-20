@@ -3,6 +3,7 @@ import QtQuick.Controls 2.0
 
 Item {
     //focus: true
+    objectName: "com.cliodin.anor._TestRemoteScreen"
     property alias color: rec.color
     //property alias radius: rec.radius
     Rectangle{
