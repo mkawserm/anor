@@ -161,6 +161,8 @@ Item{
                                + "Qt is The Qt Company Ltd product developed as an open source project. See qt.io for more information"
                                + "\n\nCopyright (C) "+__root.cprYear+" The Qt Company Ltd and other contributors."
                          wrapMode: TextArea.WordWrap
+                         font.family: __anor_text.font.family
+                         font.pixelSize: __anor_text.font.pixelSize
                      }
 
                      ScrollBar.vertical: ScrollBar { }
