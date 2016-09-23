@@ -149,7 +149,8 @@ Item{
 
                      TextArea.flickable: TextArea {
                          color: "black"
-
+                         cursorVisible: false
+                         readOnly: true
                          text: "Qt is a C++ toolkit for cross-platform application development."
                                + "Qt provides single-source portability across all major desktop operating systems."
                                + "It is also available for embedded Linux and other embedded and mobile operating systems."
