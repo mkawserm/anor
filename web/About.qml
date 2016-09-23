@@ -11,7 +11,8 @@ Item{
 
     Rectangle{
         anchors.fill: parent
-        color: "#40ffffff"
+        color: "#f2ffffff"
+        radius: 5
         Rectangle{
             id: __title_place
             width: parent.width
@@ -172,9 +173,20 @@ Item{
 
         PageIndicator {
             id: __indicator
-
             count: view.count
             currentIndex: view.currentIndex
+            delegate: Rectangle{
+                color: index===__indicator.currentIndex?"black":"grey"
+                width: 10
+                height: width
+                radius: width/2
+                MouseArea{
+                    anchors.fill: parent
+                    onClicked: {
+                        view.currentIndex = index
+                    }
+                }
+            }
 
             anchors.top: view.bottom
             anchors.horizontalCenter: parent.horizontalCenter
