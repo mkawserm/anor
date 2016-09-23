@@ -104,6 +104,7 @@ Item{
                     id: __bk_text
                     anchors.left: parent.left
                     anchors.leftMargin: 5
+                    anchors.right: parent.right
                     anchors.rightMargin: 5
                     anchors.top: __bk_logo.bottom
                     width: parent.width
