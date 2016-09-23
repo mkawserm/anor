@@ -27,12 +27,6 @@ Item{
                 verticalAlignment: Text.AlignVCenter
 
             }
-            MouseArea{
-                anchors.fill: parent
-                onClicked: {
-                    __popup_window.close();
-                }
-            }
         }
 
         SwipeView {
