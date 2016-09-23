@@ -41,10 +41,6 @@ Item{
 
             Item{
                 id: _anor
-//                width: parent.width
-//                height: parent.height
-//                contentHeight: _anor.childrenRect.height
-//                contentWidth: parent.width
                 Image {
                     id: __anor_logo
                     width: 64
@@ -66,6 +62,8 @@ Item{
                     anchors.left: parent.left
                     anchors.leftMargin: 5
                     anchors.top: __anor_logo.bottom
+                    anchors.right: parent.right
+                    anchors.rightMargin: 5
                     width: parent.width
                     height: parent.height - __anor_logo.height
                     text: "Anor is an educational software package.\nThe goal of this software to help students in all possible ways."
@@ -106,6 +104,7 @@ Item{
                     id: __bk_text
                     anchors.left: parent.left
                     anchors.leftMargin: 5
+                    anchors.rightMargin: 5
                     anchors.top: __bk_logo.bottom
                     width: parent.width
                     height: parent.height - __bk_logo.height
@@ -143,6 +142,8 @@ Item{
                      id: flickable
                      anchors.left: parent.left
                      anchors.leftMargin: 5
+                     anchors.right: parent.right
+                     anchors.rightMargin: 5
                      anchors.top: __qt_logo.bottom
                      width: parent.width
                      height: parent.height - __qt_logo.height
