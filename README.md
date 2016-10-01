@@ -1,4 +1,4 @@
-# anor
+# Anor
 
 Anor is developed for helping students by providing necessary educational tools and games.
 
