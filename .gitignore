@@ -1,6 +1,3 @@
 
 *.qmlproject
-
-*.user
-
-*.user
+web/web.qmlproject.user
